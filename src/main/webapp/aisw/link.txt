@@ -1,0 +1,15 @@
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="./bootstrap-4.6.0-dist/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="../aisw.kangwon.ac.kr/_res/knu/aisw/css/header.content0b7a.css" />
+<link rel="stylesheet" type="text/css" href="../aisw.kangwon.ac.kr/_res/knu/aisw/css/main-content01.content7204.css" />
+<link rel="stylesheet" type="text/css" href="../aisw.kangwon.ac.kr/_res/knu/aisw/css/main-content02.content3d9d.css" />
+<link rel="stylesheet" type="text/css" href="../aisw.kangwon.ac.kr/_res/knu/_share/css/main-visual-temp08.widget03b3.css" />
+<link defer rel="stylesheet" type="text/css" href="/JspProject/project/_res/_common/css/cms.css" />
+<link defer rel="stylesheet" type="text/css" href="../aisw.kangwon.ac.kr/_res/knu/_share/css/swiper.min.css" />
+<link rel="stylesheet" type="text/css" href="../aisw.kangwon.ac.kr/_res/knu/_share/css/main-visual-temp08.widget03b3.css" />
+<link href="fboard.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="../aisw.kangwon.ac.kr/_res/knu/_share/css/announcement-mini-board-template-08-representative.widget1270.css" />
+<link rel="stylesheet" type="text/css" href="../aisw.kangwon.ac.kr/_res/knu/aisw/css/main3d9d.css" />
+<link rel="stylesheet" type="text/css" href="../aisw.kangwon.ac.kr/_res/knu/aisw/css/main-content01.content7204.css" />
+<link rel="stylesheet" type="text/css" href="../aisw.kangwon.ac.kr/_res/knu/aisw/css/main3d9d.css" />
+<link rel="stylesheet" type="text/css" href="../aisw.kangwon.ac.kr/_res/knu/aisw/css/main-content02.content3d9d.css" />

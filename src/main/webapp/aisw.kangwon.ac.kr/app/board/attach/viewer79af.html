@@ -1,0 +1,147 @@
+
+
+
+
+
+
+
+	
+	
+	
+		
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
+
+<!-- Mirrored from aisw.kangwon.ac.kr/app/board/attach/viewer.do?boardNo=1824&articleNo=278586&attachNo=296649 by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 23 Apr 2022 10:48:33 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=yes">
+	<meta name="robots" content="noindex, nofollow">
+	<title>2019 AI소프트웨어학과 교육과정.pdf</title>
+	
+	<link rel="stylesheet" type="text/css" href="https://aisw.kangwon.ac.kr/_res/_common/js/jquery/jquery-ui-1.12.1/jquery-ui.css"/>
+	<link rel="stylesheet" type="text/css" href="https://aisw.kangwon.ac.kr/_res/knu/_share/css/flexer.css" />
+
+	<script type="text/javascript" src="https://aisw.kangwon.ac.kr/_res/_common/js/jquery/jquery-2.2.4.min.js"></script>
+	<script defer type="text/javascript" src="https://aisw.kangwon.ac.kr/_res/_common/js/jquery/jquery-ui-1.12.1.min.js"></script>
+	<script type="text/javascript" src="https://aisw.kangwon.ac.kr/_res/_common/js/iframe/iframeResizer.contentWindow.min.js"></script>
+	
+	<style type="text/css">
+		#frSheet {
+			padding:20px 0;
+		}
+	</style>
+	
+	<script type="text/javascript">
+	// <![CDATA[
+		
+		var g_curpage = 0;
+		var g_request_page = 0;
+		var g_check_count = 0;
+		var g_pages = 1000;
+		var g_docname = '/_attach/knu/viewer//out//_attach/knu/file/2021/10/SNgiIGZXhcRchyJQdsWMpGMPEc.files';
+		
+		function jsonData_parsing(data)	{
+			var jsonData;
+			try 
+			{
+				jsonData = JSON.parse(data);
+			}
+			catch(e)
+			{
+				jsonData = null;
+			}
+			return jsonData;
+		}
+		
+		function get_result_check_page(data, ipage) {
+			
+			var url = g_docname;
+			var viewimg = "";
+		
+			for(var i=1; i<=data; i++) {
+				
+				var imgbtn = pad(i, 5);
+				viewimg +='<div class="pdfimg" style="width:100%; height:auto;"><img src="'+ url +'/' + imgbtn + '.png" width="100%"></div><br />';
+			}
+		
+			$('#pdfView').html(viewimg);
+		}
+		
+		
+		function pad(num, size) {
+			
+		    var s = num+"";
+		    while (s.length < size) s = "0" + s;
+		    return s;
+		    
+		}
+		
+		function check_page(ipage){
+		
+			var arg = '';
+			var url = g_docname + '/pdf.txt';
+			
+			$.ajax ({
+				type : "GET",
+				url : url,
+				data : arg,
+				timeout : 5000,
+				dataType : 'text',
+				success : function(result,status,xhr) {
+					if (result < 0)
+					{
+						get_result_check_page(-result);
+						setTimeout(check_page, 2000, ipage);
+					}
+					else
+						get_result_check_page(result);
+				},
+				error : function(xhr,status,error) {
+					setTimeout(check_page, 2000, ipage);
+				},
+				complete : function(xhr,status) {
+				}
+			});
+		}
+		
+		function on_load(){
+			check_page();
+		}
+	    	
+	// ]]>
+	</script>
+</head>
+<body  style="padding:0; margin:auto; word-break:break-all; -webkit-text-size-adjust:none;" onload="on_load();">
+
+	<div id="wrap">
+		<div class="header"></div>
+		
+		
+	
+		<div id="pcontainer" style="max-width:960px; text-align:center; margin:0 auto; padding-top:0px;">
+			<div id="pdfView" style="text-align:center; margin:0 auto;"></div>
+		</div>
+	</div>
+	
+</body>
+
+<!-- Mirrored from aisw.kangwon.ac.kr/app/board/attach/viewer.do?boardNo=1824&articleNo=278586&attachNo=296649 by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 23 Apr 2022 10:48:33 GMT -->
+</html>
+
+
+	
+
+
+
+
+	
+	
+		
