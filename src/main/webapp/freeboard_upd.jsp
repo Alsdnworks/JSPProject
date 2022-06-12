@@ -29,9 +29,7 @@ function check() {
  }
 }
 </SCRIPT> 
-<link href="filegb.css" rel="stylesheet" type="text/css">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet" href="../bootstrap-4.6.0-dist/css/bootstrap.min.css">
+<%@include file="link.txt"%>
 </HEAD>
 <BODY>
 <%@ include file="dbconn.jsp" %>

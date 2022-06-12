@@ -42,6 +42,7 @@ function check(){
 	else if(tablename.equals("gallery")) out.println("<form name=\"msgwrite\" action=\"freeboard_save.jsp?table=gallery\" class=\"form-horizontal\" method=\"post\">");
 	else if(tablename.equals("dataroom")) out.println("<form name=\"msgwrite\" action=\"freeboard_save.jsp?table=dataroom\" class=\"form-horizontal\" method=\"post\">");
 	%>
+	<form name="msgwrite" action="freeboard_save.jsp?table=<%=tablename%>" class="form-horizontal" method="post">
 			<div class="form-group">
 				<hr style="border: solid 1px green;">
 				<h3 class="text-center bg-info">새글 쓰기</h3>

@@ -135,7 +135,7 @@
 						</li>
 						<br>
 						<li class="nav-item">
-							<a class="alert alert-info" href="professor0284.jsp?mode=view&amp;key=$cms$IwBlE4g&amp;" title="더보기">더보기</a>
+							<a class="alert alert-info" href="professor0284.html?mode=view&amp;key=$cms$IwBlE4g&amp;" title="더보기">더보기</a>
 						</li>
 					</ul>
 				</div>

@@ -8,15 +8,15 @@
 </HEAD>
 <BODY>
 	<%@ include file="dbconn.jsp"%>
+	<%@ include file="menu.jsp"%>
+	<br>
 	<%
 	String sql = null;
 	// Connection con= null;
 	PreparedStatement st = null;
 	ResultSet rs = null;
-
 	int id = Integer.parseInt(request.getParameter("id"));
 	String tablename = request.getParameter("table");
-
 	try {
 		if (tablename == null)
 			tablename = "freeboard";
@@ -32,7 +32,7 @@
 		em = "<A href=mailto:" + em + ">" + rs.getString("name") + "</A>";
 			else
 		em = rs.getString("name");
-			out.println("<table class='table'>");
+			out.println("<div class='container'><table class='table'>");
 			out.println("<thread>");
 			out.println("<tr>");
 			out.println("<th colspan=\"2\" scope=\"col\">제목 : " + rs.getString("subject") + "</th>");
@@ -40,7 +40,7 @@
 			out.println("</thread>");
 			out.println("<tboard>");
 			out.println("<tr>");
-			out.println("<td colspan=\"2\" scope=\"row\">글쓴이 : " + em + "</td>");
+			out.println("<td colspan=\"2\" scope=\"row\">글쓴이 : <span style='color:#40E0D0'>" + em + "</span></td>");
 			out.println("</tr>");
 			out.println("<tr>");
 			out.println("<td colspan=\"2\" scope=\"row\">작성일 : " + rs.getString("inputdate") + "</td>");
@@ -53,7 +53,7 @@
 			.replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll("\n", "<br>"));
 			out.println("</tr>");
 			out.println("</tboard>");
-			out.println("</table>");
+			out.println("</table></div>");
 	%>
 	<div class="container" style="display: inline-block; text-align: center;">
 		<tr>
@@ -86,6 +86,7 @@
 	%>
 	<script src="../bootstrap-4.6.0-dist/jquery/jquery-3.5.1.js"></script>
 	<script src="..bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js"></script>
-
+	<br>
+	<%@ include file="footer.jsp"%>
 </BODY>
 </HTML>

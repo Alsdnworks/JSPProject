@@ -10,8 +10,8 @@
 .academic-box ul li a div:before{content:'';display:inline-block;margin: 0 36px 0 0;width:91px;height:80px;vertical-align:middle;}
 .academic-box ul li:nth-of-type(1) a div:before{background:url(../../_share/img/contents/ico-academic01.png) no-repeat 0 0/100%;}
 .academic-box ul li:nth-of-type(2) a div:before{background:url(../../_share/img/contents/ico-academic02.png) no-repeat 0 0/100%;}
-.academic-box ul li:nth-of-type(3) a div:before{background:url(../../_share/contents/ico-academic03.png) no-repeat 0 0/100%;}
-.academic-box ul li:nth-of-type(4) a div:before{background:url(../../_share/contents/ico-academic04.png) no-repeat 0 0/100%;}
+.academic-box ul li:nth-of-type(3) a div:before{background:url(../../_share/img/contents/ico-academic03.png) no-repeat 0 0/100%;}
+.academic-box ul li:nth-of-type(4) a div:before{background:url(../../_share/img/contents/ico-academic04.png) no-repeat 0 0/100%;}
 .academic-box ul li a div p{display:inline-block;}
 .academic-box ul li a div p:after{content:'';display:block;margin: 30px 0 0 5px;width:24px;height:9px;background:url(../../_share/img/contents/bg-admission-arr.png) no-repeat 0 0/100%;}
 .academic-box ul li a div p span{display:block;position:relative;}

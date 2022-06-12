@@ -2,7 +2,9 @@
 <%@ page language="java" import="java.sql.*" %> 
 <% request.setCharacterEncoding("utf-8"); %>
 <HTML>
-<HEAD><TITLE>글 수정하기</TITLE></HEAD>
+<HEAD><TITLE>글 수정하기</TITLE>
+<%@include file="link.txt"%>
+</HEAD>
 <BODY>
 <%@ include file="dbconn.jsp" %>
 

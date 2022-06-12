@@ -2,6 +2,7 @@
 <%@ page language="java" import="java.sql.*,java.util.*" %> 
 <HTML>
 <HEAD>
+<%@include file="link.txt" %>
 <SCRIPT language="javascript">
 function check(){
  with(document.msgrewrite){
@@ -29,9 +30,7 @@ function check(){
  }
 }
 </SCRIPT> 
-<link href="filegb.css" rel="stylesheet" type="text/css">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet" href="../bootstrap-4.6.0-dist/css/bootstrap.min.css">
+
 </HEAD>
 <BODY>
 <%@ include file="dbconn.jsp" %>
@@ -71,15 +70,8 @@ function check(){
    mid = rs.getInt("masterid");                                     
    rnum = rs.getInt("replynum");                             
   %>
-  <%-- <FORM name='msgrewrite'  method=POST action="freeboard_rsave.jsp?id=<%=id%>&page=<%=request.getParameter("page")%>">
-   <table width="600" cellspacing="0" cellpadding="2">
-    <tr> 
-     <td colspan="2" bgcolor="#1F4F8F" height="1"></td>
-    </tr>
-    <tr> 
-     <td colspan="2" bgcolor="#DFEDFF" height="20" class="notice">&nbsp;&nbsp;<font size="2">글 답변하기</font></td>
-    </tr> --%>
-    <div class="container">
+
+    <div class="container text-center">
     	<form name = "msgrewrite" action="freeboard_rsave.jsp?id=<%=id%>&page=<%=request.getParameter("page")%>" class="form-horizontal" method="post">
     		<div class="form-group">
     			<hr style="border : solid 1px green;">
